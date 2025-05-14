@@ -9,7 +9,6 @@ Before getting started, ensure you have the following:
 
 - Python 3.12 installed on your system
 - A [Google Gemini API key](https://ai.google.dev/gemini-api/docs) [Free]
-
 ---
 
 ## 1. Environment Preparation
@@ -22,12 +21,10 @@ Create a virtual environment with Python 3.12
 ```
 python3.12 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
 ```
 Install dependencies
 ```
 pip install -r requirements.txt
-
 ```
 ## 2. Start the MCP Backend
 ```
@@ -37,9 +34,10 @@ python server.py
 
 ## 3. Input Environment Variables
 Provide environment variable
-You will need 2 environment variable <br>
+You will need 2 environment variables <br>
 - API_KEY (Google Gemini API Key)
-- MCP_URL (MCP URL Obtained from step 2)
+- MCP_URL (MCP URL Obtained from step 2) <br>
+
 Your project structure should looks like this
 ```
 .
@@ -56,13 +54,11 @@ Create a secrets.toml file under .streamlit folder and enter the following:
 ```
 API_KEY = "YOUR_API_KEY"
 MCP_URL = "YOUR_MCP_URL"
-
 ```
 
 ## 4. Start Streamlit application
 ```
 streamlit run app.py
-
 ```
 
 <hr>
