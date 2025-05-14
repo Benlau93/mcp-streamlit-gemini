@@ -78,4 +78,4 @@ LLM Assistant to identify and invoke the Pokemon API when asked about Pokemon.
 
 ### Example 2
 LLM Assistant to identify and invoke the Sales data retrieval when queried on sales information
-![Sales demo](assets\sales_tool.png)
+![Sales demo](assets/sales_tool.png)
